@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  margin: 0;
-  padding: 0;
+:root{
+  --primary: #9D72E8;
 }
