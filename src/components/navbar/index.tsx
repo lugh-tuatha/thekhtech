@@ -28,8 +28,8 @@ function Navbar() {
                 const isActive = link.name === 'Home' ? pathname === '/' : pathname.startsWith(link.href)
 
                 return (
-                  <li className={`${isActive ? 'text-primary' : ''}`} >
-                    <Link  key={link.name} href={link.href}>
+                  <li key={link.name} className={`${isActive ? 'text-primary' : ''}`} >
+                    <Link href={link.href}>
                       {link.name}
                     </Link>
                   </li>
