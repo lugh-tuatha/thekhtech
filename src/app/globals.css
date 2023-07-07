@@ -18,3 +18,7 @@
 .md-flex-between{
   @apply md:flex justify-center;
 }
+
+.button{
+  @apply py-2 px-4 rounded-md font-semibold bg-primary hover:underline text-black;
+}
