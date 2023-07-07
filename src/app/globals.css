@@ -5,3 +5,16 @@
 :root{
   --primary: #9D72E8;
 }
+
+/* tailwind apply */
+.lg-flex-between{
+  @apply lg:flex justify-between;
+}
+
+.flex-middle{
+  @apply flex items-center;
+}
+
+.md-flex-between{
+  @apply md:flex justify-center;
+}
