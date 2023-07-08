@@ -10,7 +10,7 @@ function Hero() {
       <div className="w-full lg:w-1/2 mt-4 home">
         <h1 className='text-5xl font-bold leading-snug'>Simply the Best Digital Marketing Agency: TheKHtech Leading the Way</h1>
         <p className='text-lg mt-2 mb-4'>The Know How Tech is a leader in the digital realm, providing businesses with the tools to transition from traditional to digital operations. Our platform offers a comprehensive set of resources to help businesses increase their profitability.</p>
-        <Button>Get started</Button>
+        <Button>GET MY FREE PROPOSAL &gt;&gt;</Button>
       </div>
 
       <Image  

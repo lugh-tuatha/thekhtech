@@ -27,7 +27,7 @@ function Footer() {
 
         <div className='lg-flex-between w-full lg:w-3/4'>
           <div className='mb-6'>
-            <h1 className='title font-bold mb-4'>Contact</h1>
+            <h2 className='title font-bold mb-4'>Contact</h2>
             <ul>
               <li>
                 <div className='flex-middle font-bold gap-1 mr-2'>
@@ -58,14 +58,14 @@ function Footer() {
           </div>
 
           <div className='mb-6'>
-            <h1 className='title font-bold mb-4'>Locations</h1>
+            <h2 className='title font-bold mb-4'>Locations</h2>
             <ul>
               <li className='mb-2'>New york</li>
             </ul>
           </div>
 
           <div>
-            <h1 className='title font-bold mb-4'>Quick Links</h1>
+            <h2 className='title font-bold mb-4'>Quick Links</h2>
             <ul className='cursor-pointer'>
               {Navlinks.map((link) => (
                 <li key={link.name} className='mb-2 hover:underline'>
@@ -76,7 +76,7 @@ function Footer() {
           </div>
 
           <div className=''>
-            <h1 className='title font-bold mb-4'>Follow Us</h1>
+            <h2 className='title font-bold mb-4'>Follow Us</h2>
             <div className="flex gap-4 cursor-pointer">
               <Fa.FaFacebookF size={26} />
               <Fa.FaTwitter size={26} />
