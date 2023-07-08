@@ -9,18 +9,20 @@ import { Navlinks } from '@/data/Navlinks'
 import * as Md from "react-icons/md";
 
 function Navbar() {
-  const [openMenu, setOpenMenu] = useState(false)
+  const [openMenu, setOpenMenu] = useState(true)
   const pathname = usePathname()
 
   return (
-    <div className=' shadow-sm shadow-gray-400'>
+    <div className='shadow-sm shadow-gray-400'>
       <div className='container w-11/12 mx-auto'>
         <div className='py-4 flex justify-between'>
-          <Image  
-            src="/assets/logos/KH-LOGO.png"
-            alt='Brand logo'
-            width={50}
-            height={50}/>
+          <Link href="/">
+            <Image  
+              src="/assets/logos/KH-LOGO.png"
+              alt='Brand logo'
+              width={50}
+              height={50}/>
+          </Link>
 
           <div className='flex items-center gap-6'>
             <ul className='hidden md:flex items-center gap-6 text-lg'>
