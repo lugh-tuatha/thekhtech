@@ -30,7 +30,7 @@ export const ChooseUsData = [
     desc: "We understand that every business is unique, and we tailor our strategies to match your specific goals and target audience. Our team takes the time to understand your business objectives and develop personalized marketing solutions that align with your brand and drive optimal outcomes.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Transparent Communication",
     desc: "We believe in building strong relationships with our clients through open and transparent communication. We keep you informed about the progress of your campaigns, provide detailed reports, and are always available to address your questions or concerns.",
   },

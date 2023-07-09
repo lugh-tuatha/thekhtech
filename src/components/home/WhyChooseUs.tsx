@@ -1,11 +1,8 @@
-'use client'
-import React, { useState } from 'react'
+import React from 'react'
 
 import { ChooseUsData } from '@/data/ChooseUsData'
 
 function WhyChooseUs() {
-  const [collapse, setCollapse] = useState(false)
-
   return (
     <div>
       <div className='text-center'>
