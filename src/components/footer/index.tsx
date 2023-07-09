@@ -60,7 +60,7 @@ function Footer() {
           <div className='mb-6'>
             <h2 className='title font-bold mb-4'>Locations</h2>
             <ul>
-              <li className='mb-2'>New york</li>
+              <li className='mb-2'>315 N Central Ave Valley Stream NY 11580</li>
             </ul>
           </div>
 

@@ -48,12 +48,12 @@ function Navbar() {
         </div>
 
         <div
-          className={`absolute w-full duration-200 bg-white md:hidden h-full ${openMenu ? '-left-full' : '-left-0'}`}>
+          className={`absolute w-full duration-200 text-black text-center text-2xl font-bold pt-8 bg-white md:hidden h-full ${openMenu ? '-left-full' : '-left-0'}`}>
           <ul>
             {Navlinks.map((link) => (
             <Link key={link.name} href={link.href}>
               <div className='hover:bg-gray'>
-                <li className='py-2 w-11/12 mx-auto container cursor-pointer'
+                <li className='py-4 w-11/12 mx-auto container cursor-pointer'
                   onClick={() => setOpenMenu(!openMenu)}>
                     {link.name}
                 </li>
