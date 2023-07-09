@@ -20,10 +20,6 @@ export const Navlinks = [
     href: "/partners",
   },
   {
-    name: "Contact",
-    href: "/contact",
-  },
-  {
     name: "Careers",
     href: "/careers",
   }

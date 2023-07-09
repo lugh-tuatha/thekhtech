@@ -8,6 +8,8 @@ import { usePathname } from 'next/navigation'
 import { Navlinks } from '@/data/Navlinks'
 import * as Md from "react-icons/md";
 
+import Button from '../button'
+
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(true)
   const pathname = usePathname()
@@ -40,6 +42,9 @@ function Navbar() {
             </ul>
 
             <Md.MdDarkMode className='text-2xl cursor-pointer'/>
+            <div className='hidden md:block'>
+              <Button>Contact Us</Button>
+            </div>
 
             <div className='text-4xl md:hidden cursor-pointer' onClick={() => setOpenMenu(!openMenu)}>
               {openMenu ? <Md.MdMenu /> : <Md.MdClose /> }
@@ -61,6 +66,7 @@ function Navbar() {
             </Link>
             ))}
           </ul>
+          <Button>Contact Us</Button>
         </div>
       </div>
     </div>
