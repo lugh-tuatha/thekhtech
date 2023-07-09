@@ -1,8 +1,13 @@
 import React from 'react'
 
+import Breadcrumbs from '@/components/breadcrumbs'
+
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <Breadcrumbs>About</Breadcrumbs>
+      
+    </div>
   )
 }
 
