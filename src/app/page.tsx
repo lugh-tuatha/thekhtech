@@ -1,6 +1,7 @@
 import Mvo from '@/components/home/Mvo'
 import Hero from '@/components/home/Hero'
 import WhyChooseUs from '@/components/home/WhyChooseUs'
+import Platforms from '@/components/home/Platforms'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero/>
       <Mvo />
       <WhyChooseUs />
+      <Platforms />
     </main>
   )
 }
