@@ -25,7 +25,7 @@ function Footer() {
           <Button>Subscribe to newsletter</Button>
         </div>
 
-        <div className='lg-flex-between w-full lg:w-3/4'>
+        <div className='lg-flex-between gap-4 w-full lg:w-3/4'>
           <div className='mb-6'>
             <h2 className='title font-bold mb-4'>Contact</h2>
             <ul>
@@ -43,7 +43,6 @@ function Footer() {
                     className='inline mr-2'/>
                   <span>(516) 366-2659</span>
                 </div>
-
               </li>
 
               <li>
@@ -54,13 +53,14 @@ function Footer() {
                 <span className='block mb-2'>info@thekhtech.com</span>
                 <span>sales@thekhtech.com</span>
               </li>
-            </ul>
-          </div>
 
-          <div className='mb-6'>
-            <h2 className='title font-bold mb-4'>Locations</h2>
-            <ul>
-              <li className='mb-2'>315 N Central Ave Valley Stream NY 11580</li>
+              <li>
+                <div className='flex-middle font-bold gap-1 mr-2'>
+                  <p>Location</p>
+                  <Fa.FaMapMarkedAlt />
+                </div>
+                <span>315 N Central Ave Valley <br /> Stream NY 11580</span>
+              </li>
             </ul>
           </div>
 
