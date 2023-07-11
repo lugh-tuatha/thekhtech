@@ -15,7 +15,7 @@ function WhyChooseUs() {
   
   return (
     <div>
-      <div className='flex items-center mt-4'>
+      <div className='flex-middle mt-4'>
         <div className='w-1/2'>
           <h1 className='text-4xl font-bold'>Why Choose THEKHTECH For Your Digital Marketing Agency</h1>
           <p className='text-xl mt-4 text-justify mx-auto'>When you choose Know How Tech as your digital marketing partner, you gain access to a team of experts who are passionate about driving your business success. With our expertise, customized solutions, comprehensive services, results-driven approach, transparent communication, and exceptional customer service, we are well-equipped to help you achieve your digital marketing goals.Here are some reasons why</p>

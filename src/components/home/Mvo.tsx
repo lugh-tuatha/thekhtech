@@ -29,7 +29,7 @@ function Mvo() {
         </div>
       </div>
 
-      <div className='lg:flex justify-between items-center'>
+      <div className='lg-flex-between items-center'>
         <div className='lg:w-1/2'>
           <h2 className='text-4xl font-bold'>Company Objectives</h2>
           <p className='text-justify text-lg mt-2'>Our primary objective is to empower our clients with digital marketing services that drive profitability. We specialize in providing comprehensive solutions for businesses making the transition from traditional to digital platforms. Our focus is not solely on financial gain, but on nurturing the growth and success of your business. We offer cost-effective and reliable digital solutions that prioritize user experience. Additionally, we provide training and education to equip businesses with the necessary skills and knowledge to thrive in the digital landscape. With a team of highly knowledgeable experts, we have a deep understanding of what it takes to achieve success in the digital marketing realm.</p>

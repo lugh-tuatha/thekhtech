@@ -7,16 +7,24 @@
 }
 
 /* tailwind apply */
-.lg-flex-between{
-  @apply lg:flex justify-between;
-}
-
 .flex-middle{
   @apply flex items-center;
 }
 
+.flex-center{
+  @apply flex justify-center;
+}
+
+.flex-between{
+  @apply flex justify-between;
+}
+
 .md-flex-between{
-  @apply md:flex justify-center;
+  @apply md:flex justify-between;
+}
+
+.lg-flex-between {
+  @apply lg:flex justify-between;
 }
 
 .button{

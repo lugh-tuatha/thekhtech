@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className='sticky top-0 z-50 bg-white shadow-md shadow-gray-600'>
       <div className='container w-11/12 mx-auto'>
-        <div className='py-4 flex justify-between'>
+        <div className='py-4 flex-between'>
           <Link href="/">
             <Image  
               src="/assets/logos/KH-LOGO.png"
@@ -26,8 +26,8 @@ function Navbar() {
               height={50}/>
           </Link>
 
-          <div className='flex items-center gap-6'>
-            <ul className='hidden md:flex items-center gap-6 text-lg'>
+          <div className='flex-middle gap-6'>
+            <ul className='hidden md:flex-middle gap-6 text-lg'>
               {Navlinks.map((link) => {
                 const isActive = link.name === 'Home' ? pathname === '/' : pathname.startsWith(link.href)
 
