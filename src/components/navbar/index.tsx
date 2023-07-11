@@ -15,7 +15,7 @@ function Navbar() {
   const pathname = usePathname()
 
   return (
-    <div className='shadow-sm shadow-gray-400'>
+    <div className='sticky top-0 z-50 bg-white shadow-md shadow-gray-600'>
       <div className='container w-11/12 mx-auto'>
         <div className='py-4 flex justify-between'>
           <Link href="/">
@@ -53,7 +53,7 @@ function Navbar() {
         </div>
 
         <div
-          className={`absolute w-full duration-200 text-black text-center text-2xl font-bold pt-8 bg-white md:hidden h-full ${openMenu ? '-left-full' : '-left-0'}`}>
+          className={`absolute w-full duration-200 text-black text-center text-2xl font-bold pt-8 bg-white md:hidden h-screen ${openMenu ? '-left-full' : '-left-0'}`}>
           <ul>
             {Navlinks.map((link) => (
             <Link key={link.name} href={link.href}>

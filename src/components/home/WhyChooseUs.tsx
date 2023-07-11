@@ -7,7 +7,7 @@ import { ChooseUsData } from '@/data/ChooseUsData'
 function WhyChooseUs() {
   const [collapseStates, setCollapseStates] = useState(Array(ChooseUsData.length).fill(false));
 
-  const toggleCollapse = (index) => {
+  const toggleCollapse = (index: number) => {
     const updatedCollapseStates = [...collapseStates];
     updatedCollapseStates[index] = !updatedCollapseStates[index];
     setCollapseStates(updatedCollapseStates);
