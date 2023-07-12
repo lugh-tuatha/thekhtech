@@ -6,7 +6,7 @@ interface ButtonTransparentProps {
 
 const ButtonTransparent: React.FC<ButtonTransparentProps> = ({ children }) => {
   return (
-    <button className='font-bold  py-3 px-6 rounded-full bg-primary text-lg'>{children}</button>
+    <button className='font-bold py-2 px-4 rounded-md border-2 border-primary'>{children}</button>
   );
 };
 
