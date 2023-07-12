@@ -8,7 +8,7 @@ import { AiOutlineMessage } from "react-icons/ai";
 
 function CallToAction() {
   return (
-    <div className='text-center'>
+    <div className='text-center bg-secondary py-16 rounded-lg'>
       <h1 className='text-4xl'>READY TO <b>GROW YOUR BUSINESS?</b></h1>
       <p className='my-3 text-xl'>Contact us to work with result-driven digital marketing agency</p>
       <div className='flex-middle justify-center gap-4'>
