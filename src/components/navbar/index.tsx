@@ -27,7 +27,7 @@ function Navbar() {
           </Link>
 
           <div className='flex-middle gap-6'>
-            <ul className='hidden md:flex-middle gap-6 text-lg'>
+            <ul className='hidden md-flex-middle gap-6 text-lg'>
               {Navlinks.map((link) => {
                 const isActive = link.name === 'Home' ? pathname === '/' : pathname.startsWith(link.href)
 

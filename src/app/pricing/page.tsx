@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Breadcrumbs from '@/components/breadcrumbs'
+
 function Pricing() {
   return (
-    <div>Pricing</div>
+    <div>
+      <Breadcrumbs>Pricing</Breadcrumbs>
+    </div>
   )
 }
 
