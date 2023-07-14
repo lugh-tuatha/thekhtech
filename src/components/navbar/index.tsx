@@ -1,18 +1,21 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { useTheme } from 'next-themes';
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
-import { Navlinks } from '@/data/Navlinks'
+import { Navlinks } from '@/data/Navlinks';
 import * as Md from "react-icons/md";
 
-import Button from '../button'
+import Button from '../button';
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(true)
   const pathname = usePathname()
+
+  const { theme, setTheme } = useTheme();
 
   return (
     <div className='sticky top-0 z-50 bg-white shadow-md shadow-gray-600'>
@@ -40,8 +43,16 @@ function Navbar() {
                 )
               })}
             </ul>
+            <div>
+              {theme === "light" ? (
+                <Md.MdLightMode onClick={() => setTheme('light')}
+                  className='text-2xl cursor-pointer'/>
+              ) : 
+                <Md.MdDarkMode onClick={() => setTheme('dark')}
+                  className='text-2xl cursor-pointer'/>
+              }
+            </div>
 
-            <Md.MdDarkMode className='text-2xl cursor-pointer'/>
             <div className='hidden md:block'>
               <Button>Contact Us</Button>
             </div>
