@@ -36,9 +36,13 @@ function WhyChooseUs() {
           <div key={why_us_item.id}>
             <div className='text-center'>
               <h2 className='text-xl bg-secondary font-bold p-2 mb-4'>{why_us_item.title}</h2>
-              <p className='text-lg'>{why_us_item.desc} <span className={`transition-all duration-500 ease-in-out ${collapseStates[index] ? '' : 'hidden'}`}>{why_us_item.readmore}</span></p>
+              <p className='text-lg'>{why_us_item.desc}
+                <span className={`transition-all duration-500 ease-in-out ${collapseStates[index] ? '' : 'hidden xl:inline'}`}>
+                  {why_us_item.readmore}
+                </span>
+              </p>
             </div>
-            <p className='text-lg relative top-0 text-primary hover:underline font-bold text-center cursor-pointer'
+            <p className='text-lg xl:hidden relative top-0 text-primary hover:underline font-bold text-center cursor-pointer'
               onClick={() => toggleCollapse(index)}>
               {collapseStates[index] ? 'Read Less' : 'Read More'}
             </p>

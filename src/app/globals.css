@@ -4,6 +4,14 @@
 
 :root{
   --primary: #9D72E8;
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
 }
 
 /* tailwind apply */

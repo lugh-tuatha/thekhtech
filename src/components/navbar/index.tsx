@@ -16,6 +16,7 @@ function Navbar() {
   const pathname = usePathname()
 
   const { theme, setTheme } = useTheme();
+  console.log(theme)
 
   return (
     <div className='sticky top-0 z-50 bg-white shadow-md shadow-gray-600'>
@@ -44,13 +45,15 @@ function Navbar() {
               })}
             </ul>
             <div>
-              {theme === "light" ? (
-                <Md.MdLightMode onClick={() => setTheme('light')}
+              {theme === 'dark' ? (
+                <Md.MdLightMode
+                  onClick={() => setTheme('light')}
                   className='text-2xl cursor-pointer'/>
-              ) : 
-                <Md.MdDarkMode onClick={() => setTheme('dark')}
+              ) : (
+                <Md.MdDarkMode
+                  onClick={() => setTheme('dark')}
                   className='text-2xl cursor-pointer'/>
-              }
+              )}
             </div>
 
             <div className='hidden md:block'>

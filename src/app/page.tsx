@@ -7,19 +7,15 @@ import Platforms from '@/components/home/Platforms'
 import CallToAction from '@/components/home/CallToAction'
 import Expertise from '@/components/home/Expertise'
 
-import { ThemeProvider } from 'next-themes'
-
 export default function Home() {
   return (
-    <ThemeProvider attribute='class'>
-      <main>
-        <Hero/>
-        <Mvo />
-        <Expertise />
-        <WhyChooseUs />
-        <Platforms />
-        <CallToAction />
-      </main>
-    </ThemeProvider>
+    <main>
+      <Hero/>
+      <Mvo />
+      <Expertise />
+      <WhyChooseUs />
+      <Platforms />
+      <CallToAction />
+    </main>
   )
 }
