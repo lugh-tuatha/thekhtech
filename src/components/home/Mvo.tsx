@@ -6,7 +6,7 @@ function Mvo() {
   return (
     <div>
       <div className='md:flex gap-8 my-8'>
-        <div className='md:w-1/2 text-center bg-secondary rounded-xl px-8 py-4'>
+        <div className='md:w-1/2 text-center bg-secondary dark:bg-darkSecondary rounded-xl px-8 py-4'>
           <Image  
             src="/assets/svg/mission.svg"
             alt='mvo banner'
@@ -17,7 +17,7 @@ function Mvo() {
           <p>At our digital marketing agency, our team of experts is dedicated to transforming your business into a digital powerhouse. We strive to provide innovative solutions and strategies that will position your business as a leader in the digital landscape. With our commitment to staying ahead of the latest technological advancements, we ensure that your business remains at the forefront of the industry.</p>
         </div>
 
-        <div className='md:w-1/2 mt-4 md:mt-0 text-center bg-secondary rounded-xl px-8 py-4'>
+        <div className='md:w-1/2 mt-4 md:mt-0 text-center bg-secondary dark:bg-darkSecondary rounded-xl px-8 py-4'>
           <Image  
             src="/assets/svg/vision.svg"
             alt='mvo banner'

@@ -16,14 +16,12 @@ function Navbar() {
   const pathname = usePathname()
 
   const { theme, setTheme } = useTheme();
-  console.log(theme)
-
   return (
-    <div className='sticky top-0 z-50 bg-white shadow-md shadow-gray-600'>
+    <div className='sticky top-0 z-50 bg-white dark:bg-darkBackground shadow-md shadow-gray-600'>
       <div className='container w-11/12 mx-auto'>
         <div className='py-4 flex-between'>
           <Link href="/">
-            <Image  
+            <Image
               src="/assets/logos/KH-LOGO.png"
               alt='Brand logo'
               width={50}

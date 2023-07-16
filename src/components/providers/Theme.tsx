@@ -9,7 +9,7 @@ interface ThemeProps {
 
 function Theme({ children }: ThemeProps) {
   return (
-    <ThemeProvider>
+    <ThemeProvider attribute='class'>
       {children}
     </ThemeProvider>
   );

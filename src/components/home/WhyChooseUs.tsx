@@ -35,7 +35,7 @@ function WhyChooseUs() {
         {ChooseUsData.map((why_us_item, index) => (
           <div key={why_us_item.id}>
             <div className='text-center'>
-              <h2 className='text-xl bg-secondary font-bold p-2 mb-4'>{why_us_item.title}</h2>
+              <h2 className='text-xl bg-secondary dark:bg-darkSecondary font-bold p-2 mb-4'>{why_us_item.title}</h2>
               <p className='text-lg'>{why_us_item.desc}
                 <span className={`transition-all duration-500 ease-in-out ${collapseStates[index] ? '' : 'hidden xl:inline'}`}>
                   {why_us_item.readmore}

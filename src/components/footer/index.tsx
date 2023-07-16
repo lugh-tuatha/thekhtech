@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 function Footer() {
   return (
-    <div className="bg-secondary text-black">
+    <div className="bg-secondary dark:bg-darkSecondary text-black">
       <div className='lg-flex-between mt-20 py-10 gap-10 w-11/12 container mx-auto '>
         <div className='w-full lg:w-1/4 mb-6'>
           <Image  

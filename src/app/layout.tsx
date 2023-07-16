@@ -18,13 +18,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='light'>
       <body className={inter.className}>
         <Theme>
           <Navbar />
-            <div className='container w-11/12 mx-auto'>
+            <main className='container w-11/12 mx-auto'>
               {children}
-            </div>
+            </main>
           <Footer />
         </Theme>
       </body>

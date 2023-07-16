@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
   theme: {
     extend: {
       backgroundImage: {
@@ -15,13 +15,13 @@ module.exports = {
       },
       colors: {
         primary: "#9D72E8",
-        secondary: "#CCDAF5",
+        secondary: "#f3f5f7",
         accent: "#21146B",
         gray: "#e5e5e5",
 
-        darkBackground: "#1E1506",
-        darkSecondary: "#09162F",
-        darkAccent: "#21146B",
+        darkBackground: "#121212",
+        darkSecondary: "#1d2129",
+        darkAccent: "#23CE6B",
       },
     },
   },
