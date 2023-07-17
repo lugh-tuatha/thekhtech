@@ -5,7 +5,6 @@ export const expertise = [
     banner: "/assets/expertise-banner/security.png",
     title: "Client Online Security",
     desc: "We have a team of experts available 24/7 to make sure that your business is safe and protected from phishing, cookie theft, denial of service attacks, and more.",
-    detailedDesc: "At our company, we pride ourselves on providing top-notch cybersecurity services to safeguard your business from a wide range of online threats. With our dedicated team of experts, who are available round the clock, we prioritize the security of your organization, ensuring your peace of mind.",
     links: "/",
   },
   {
@@ -13,8 +12,7 @@ export const expertise = [
     icon: "/assets/icons/expertise/online-support.png",
     banner: "/assets/expertise-banner/customer-service.png",
     title: "Customer Assistance",
-    desc: "Know How Tech provides businesses with efficient solutions for launching websites. We offer top-notch client services, utilizing a range of customer service software tools to meet your specific requirements.",
-    detailedDesc: "At Know How Tech, we specialize in providing businesses with efficient and effective solutions for launching websites. We understand that a well-designed and properly functioning website is crucial for establishing a strong online presence and reaching your target audience. With our expertise and comprehensive services, we ensure that your website is optimized for success.",
+    desc: "The Know How Tech has made it easier for businesses to get their website up and running with the right tools and assistance. Our client services are of high-quality that and use different customer service software tools to make sure your needs are catered.",
     links: "/",
   },
   {
@@ -22,8 +20,7 @@ export const expertise = [
     icon: "/assets/icons/expertise/communicate.png",
     banner: "/assets/expertise-banner/marketing.png",
     title: "Digital Marketing and Retargeting",
-    desc: "Our strategy involves targeted advertising on relevant websites and apps to engage users based on their online behavior and interests, ultimately driving them back to your websites.",
-    detailedDesc: "At our company, we have developed a strategic approach to advertising that goes beyond traditional methods. Our strategy involves targeted advertising on relevant websites and apps to engage users based on their online behavior and interests, with the ultimate goal of driving them back to your websites.",
+    desc: "In a nutshell, our strategy is to show users content on other websites or apps that are related to their online behavior and interests. This strategy uses targeted advertising to get potential customers to return to your websites.",
     links: "/",
   },
   {
@@ -31,8 +28,7 @@ export const expertise = [
     icon: "/assets/icons/expertise/analysis.png",
     banner: "/assets/expertise-banner/business-tactics.png",
     title: "Enhancing Business Tactics and Strategies",
-    desc: "We provide a range of effective business tactics and strategies, using strategic planning software like Cascade, KPISOFT, Perdoo, etc., to support your success in the business world.",
-    detailedDesc: "At our company, we offer a comprehensive range of effective business tactics and strategies to support your success in the dynamic and competitive business world. We understand that strategic planning is essential for achieving sustainable growth and staying ahead of the curve. To facilitate this, we utilize strategic planning software such as Cascade, KPISOFT, Perdoo, and others to streamline and optimize your strategic processes.",
+    desc: "To help you navigate the business world, we offer a slew of enhancing business tactics and strategies for business owners using strategic planning software such as Cascade, KPISOFT, Perdoo, etc. ",
     links: "/",
   },
   {
@@ -40,8 +36,7 @@ export const expertise = [
     icon: "/assets/icons/expertise/tech-education.png",
     banner: "/assets/expertise-banner/tech-edu.png",
     title: "Technological Drive and Education",
-    desc: "Our services include an in-house development team and an online course covering computer basics, WordPress, and mobile app development.",
-    detailedDesc: "At our company, we offer a comprehensive range of services to meet your development needs, as well as provide educational resources to enhance your knowledge and skills in the field of technology. Our services include an in-house development team and an online course covering computer basics, WordPress, and mobile app development.",
+    desc: "The services offered include an in-house development team and the launch of an online course. The course is a training series that provides information on everything from computer basics to WordPress to the basics of mobile app development.",
     links: "/",
   },
   {
@@ -49,8 +44,7 @@ export const expertise = [
     icon: "/assets/icons/expertise/web-design.png",
     banner: "/assets/expertise-banner/web-construction.png",
     title: "Website Construction and Design",
-    desc: "The Know How Tech provides website design and construction services using a skilled team of developers and designers proficient in Adobe XD, Webflow, Bubble, and other tools.",
-    detailedDesc: "At The Know How Tech, we specialize in providing exceptional website design and construction services. Our skilled team of developers and designers possesses expertise in utilizing various industry-leading tools and technologies to bring your vision to life. We are proficient in using tools such as Adobe XD, Webflow, Bubble, and many others to create visually appealing and functional websites tailored to your unique needs.",
+    desc: "The Know How Tech offers website design and construction services, by virtue of its team of talented website developers and graphic designers through Adobe XD, Webflow, Bubble, and more. ",
     links: "/",
   },
   {
@@ -59,7 +53,6 @@ export const expertise = [
     banner: "/assets/expertise-banner/web-dev.png",
     title: "Website Implementation and Development",
     desc: "Designing and building websites, hosting, CRM integration, web development, and more are just some of the many things we expertly offer.",
-    detailedDesc: "At our company, we take pride in offering a comprehensive range of expert services to cater to your diverse needs in the digital landscape. From designing and building websites to providing hosting solutions, CRM integration, web development, and much more, we have you covered with our expertise and extensive service offerings.",
     links: "/",
   },
 ]

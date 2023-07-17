@@ -9,8 +9,8 @@
   --foreground: black;
 }
 
-[data-theme='dark'] {
-  --background: black;
+html.dark {
+  --background: #121212;
   --foreground: white;
 }
 

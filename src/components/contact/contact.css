@@ -1,0 +1,35 @@
+.forms-input{
+  @apply border-2 border-black p-3 outline-none bg-transparent text-lg;
+}
+
+.form-textarea{
+  @apply w-full h-40 col-span-2 py-2 px-4 border-2 bg-transparent border-black outline-none;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span,
+.inputBox textarea:valid ~ span,
+.inputBox textarea:focus ~ span{
+  color: var(--primary);
+  transform: translateX(12.5px) translateY(-14px);
+  font-size: 0.95em;
+  padding: 0 5px;
+  background-color: var(--background);
+  letter-spacing: 0.1em;
+}
+
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox textarea:valid,
+.inputBox textarea:focus{
+  border: 2px solid var(--primary);
+}
+
+.isRequired input:valid ~ span::after,
+.isRequired input:focus ~ span::after{
+  content: '*';
+  display: inline;
+  color: red;
+  margin-left: .2rem;
+}
